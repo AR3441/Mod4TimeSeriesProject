@@ -10,7 +10,7 @@ Remarkable growth and fall of Bitcoin over the last few years created large ammo
 
 It demonstrates that the target variable does not seem to be affected by seasonal or cyclical trends but overall has been following a slight upward trend.  
 
-This porject also illustrates that predictive modelling of Bitcoin is not an easy task.  
+This porject also illustrates that predictive modelling of Bitcoin on daily basis is not an easy task due to its volatility.  
 
 # Goal
 The purpose of this project is to exercise our newly aquired time series analysis and prediction skills.
