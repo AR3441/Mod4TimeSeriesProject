@@ -1,1 +1,1 @@
-# Mod4TimeSeriesProject
+![chart1](main_pic.png)<br>
