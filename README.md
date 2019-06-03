@@ -1,3 +1,5 @@
+<img src="main_pic.png" width="700"/>
+
 ![chart1](main_pic.png)<br>
 
 # Disclaimer
