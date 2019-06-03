@@ -1,7 +1,5 @@
 <img src="main_pic.png" width="700"/>
 
-![chart1](main_pic.png)<br>
-
 # Disclaimer
 This project does not advocate or promote the purchase of bitcoin or any other cryptocurrencies.  
 It should not be viewed as an investment advise.  
