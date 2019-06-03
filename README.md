@@ -44,5 +44,4 @@ Since this is daily data, it was difficult to observe seasonality and the residu
   <img src="https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/rolling_mu_yearly.png" width="275" />
 </p> 
 
-
-
+Looking at these graphs, there is an overall trend that can be seen by looking at yearly data. However, some transformations will need to be done to make the data stationary. 
