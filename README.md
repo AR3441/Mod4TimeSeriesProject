@@ -22,7 +22,7 @@ This project utilises three types of data:
 - bitcoin google search tredns historical data (Google trends)
 
 # Models 
-- ARIMA model  
+- ARMA model  
 - ARIMAX model  
 - Long short-term memory (LSTM) recurrent neural network (RNN)  
 
@@ -49,3 +49,23 @@ Looking at these graphs, there is an overall trend that can be seen by looking a
 <img src="https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/daily_dicky_fuller_test.png" width = "700">
 
 The data now looks a lot more random and was confirmed to be stationary since the p-value for this test was less than 0.05. 
+
+## ARMA Model
+
+A baseline model was created using ARMA with eight autoregressive terms and no moving average terms. 
+
+<img src="https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/baselineARMAresults.PNG" width="600"/>
+
+This model was then used to predict the next ten values. Looking at this graph, the model captures the average value but doesn't really account for volatility. Also, it is important to note that this model is predicting based on transformed values.  
+
+<img src= "https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/ARMApreds.png" width = "700"/>
+
+## ARIMA Model
+
+Next an ARIMA model was used on monthly aggregated data since daily data was too volatile. This can be seen below. 
+
+<img src= "https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/btc_monthly.png" width = "600"/>
+
+An ARIMA model was created with one AR term, one MA term, and one first difference. When forecasting, the following results were obtained:
+
+<img src = "https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/btc_monthly_preds.png" width = "600"/>
