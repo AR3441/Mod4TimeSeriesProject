@@ -48,4 +48,4 @@ Looking at these graphs, there is an overall trend that can be seen by looking a
 
 <img src="https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/daily_dicky_fuller_test.png" width = "700">
 
-The data now looks a lot more random and was confirmed stationary since the p-value for this test was less than 0.05. 
+The data now looks a lot more random and was confirmed to be stationary since the p-value for this test was less than 0.05. 
