@@ -69,3 +69,9 @@ Next an ARIMA model was used on monthly aggregated data since daily data was too
 An ARIMA model was created with one AR term, one MA term, and one first difference. When forecasting, the following results were obtained:
 
 <img src = "https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/btc_monthly_preds.png" width = "600"/>
+
+This model also did well when tracking a general trend but did not do well when forecasting and like the base model, didn't account for shocks. More information about this model can be seen in the MonthlyARIMA notebook. 
+
+## LSTM RNN Model 
+
+
