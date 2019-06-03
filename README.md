@@ -44,4 +44,8 @@ Since this is daily data, it was difficult to observe seasonality and the residu
   <img src="https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/rolling_mu_yearly.png" width="275" />
 </p> 
 
-Looking at these graphs, there is an overall trend that can be seen by looking at yearly data. However, some transformations will need to be done to make the data stationary. 
+Looking at these graphs, there is an overall trend that can be seen by looking at yearly data. However, some transformations will need to be done to make the data stationary. Ultimately, we decided to transform the data by taking the natural log, and then taking the first difference. 
+
+<img src="https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/daily_dicky_fuller_test.png" width = "700">
+
+The data now looks a lot more random and was confirmed stationary since the p-value for this test was less than 0.05. 
