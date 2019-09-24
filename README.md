@@ -10,7 +10,7 @@ Remarkable growth and fall of Bitcoin over the last few years created large ammo
 
 It demonstrates that the target variable does not seem to be affected by seasonal or cyclical trends but overall has been following a slight upward trend.  
 
-This porject also illustrates that predictive modelling of Bitcoin on daily basis is not an easy task due to its volatility.  
+This project also illustrates that predictive modelling of Bitcoin on daily basis is not an easy task due to its volatility.  
 
 # Goal
 The purpose of this project is to exercise our newly aquired time series analysis and prediction skills.
@@ -70,4 +70,4 @@ An ARIMA model was created with one AR term, one MA term, and one first differen
 
 <img src = "https://github.com/AR3441/Mod4TimeSeriesProject/blob/master/Graphs/btc_monthly_preds.png" width = "600"/>
 
-This model also did well when tracking a general trend but did not do well when forecasting and like the base model, didn't account for shocks. More information about this model can be seen in the MonthlyARIMA notebook. 
+This model also did well when tracking general trends but did not do well when forecasting and like the base model, didn't account for shocks. More information about this model can be seen in the MonthlyARIMA notebook. 
